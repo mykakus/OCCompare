@@ -24,7 +24,7 @@ Good contact (green): XXX mm²
 Bad contact (red): XXX mm²
 Intermediate contact (orange): XX mm²
 ```
-![maxi-mand](Images/Colors.PNG)
+![maxi-mand](Images/Colors.png)
 
 ## Docker
 To build Docker
