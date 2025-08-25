@@ -1,7 +1,7 @@
 # Maxilla–Mandible Occlusion Analysis
 A simple, Python-based occlusion estimation for maxilla–mandible models captured by intraoral scanners.
 
-## Requirements (fol all script)
+## Requirements (for all script)
 -   Python 3.12
 -   PyTorch >= 2.7
 -   CUDA >= 12.8
@@ -43,3 +43,4 @@ A Jupyter notebook can be started by opening the following in a browser:  http:/
    - Model weigts are in ML_param.ckpt file
 > [!CAUTION]
 > Be aware that your 3D teeth models better be aligned with the Teeth3DS dataset models. Both ML-based scripts include a correction step (get_pca_rotation), but it is not stable. Future improvements should include a better implementation to address this issue (eg. [AlignNet part]('10.1109/TMM.2023.3289760')).
+
